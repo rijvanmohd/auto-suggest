@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.logo{
+  margin-top:200px;
+  margin-bottom:20px;
+}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+}
+ul.options {
+  display: block;
+  list-style: none;
+  width: 30rem;
+  transition: width 0.3s;
+  margin: auto;
+  width:500px;
+  position: relative;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+ul.options li {
+  /*box-shadow: 1px 1px 8px 1px #dcdcdc;*/
+  padding: 10px;
+  font-size: 1.2rem;
+  /*width: 100%;*/
+}
+ul.options li:hover {
+  font-weight: bold;
+  color: #00b4cc;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+ul.options li.option-active {
+  background: whitesmoke;
+  font-size: 1.5rem;
+  color: #00b4cc;
+  :before {
+  	background: whitesmoke;
+  }
+}
+.no-options {
+  color: black;
+}
+
